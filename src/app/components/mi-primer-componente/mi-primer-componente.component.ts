@@ -5,10 +5,10 @@ import { Component } from "@angular/core";
 //decorador e iniciadp0
 @Component({
 selector: 'mi-primer-componente',
-template: `
-<h1>Mi primer componente</h1>
-<p>Este es el primer componente</p>
-`
+templateUrl: './mi-primer-componente.component.html',
+
+
+
 
 
 })
@@ -22,6 +22,7 @@ export class miprimercomponente{
 
 
     //defino constructor
+
     constructor(){
         this.titulo = "Mi primer componente";
         this.mensaje = "Este es el primer componente";
